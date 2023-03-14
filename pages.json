@@ -33,6 +33,23 @@
             
         }
     ],
+    "subPackages": [  
+      {
+        "root": "subpkg",   //第一个分包的根目录
+        "pages": [          
+        
+        {
+                    "path" : "goods_list/goods_list",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+      }
+    ],
   "tabBar": {
       "selectedColor": "#C00000",
       "list": [
